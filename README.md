@@ -1,7 +1,7 @@
 # Documentación
 Contenido de shader: Modelo de luz personalizado basado en Lambert, mapa de textura y mapa de normales, Rim light, Phong y un efecto Banded.
 
-Este shader se realizó utilizando HLSL, el cual es un lenguaje de sombreado desarrollado por Microsoft para su uso con la interfaz de programación de aplicaciones Direct3D. Además, el shader es un modelo personalizado basado en Lambert.
+Este shader se realizó utilizando HLSL en Unity, el cual es un lenguaje de sombreado. Además, el shader es un modelo personalizado basado en Lambert.
 
 El shader cuenta con varias cosas, entre ellas se encuentra un albedo color, que tiene la capacidad de cambiar el color del material, una textura principal, y un mapa de normales, para que el material no solo tenga una textura plana, si no que tenga más profundidad. La textura se consiguió por medio de una imagen de internet, mientras que el mapa de normales se consiguió utilizando una herramienta llamada CrazyBump. Utilizando esta herramienta, lo que se hizo fue tomar la imagen de la textura y el programa mapeo las normales, y solo se le movieron algunas características al mapa, como los detalles y el sharpen. A este mapa de normales se le puede modificar la intensidad con Normal strength.
 
