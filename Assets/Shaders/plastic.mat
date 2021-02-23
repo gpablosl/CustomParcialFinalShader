@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CustomParcialFinalShader
+  m_Name: plastic
   m_Shader: {fileID: 4800000, guid: 62a2eda4bfb45194db14a5811b1b5087, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: ec2fb5ac98f0ba54bb9af3ef14ded653, type: 3}
+        m_Texture: {fileID: 2800000, guid: e5e530d917f1bf344bfbfb7a8fcf61b2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTex:
-        m_Texture: {fileID: 2800000, guid: 53dabcac4b11f7246b8a3486e9d186f9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 91db33125cd61014586855eddfff5770, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: bb4c513043c611742809c72f137df7a0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -68,29 +68,29 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _FallOff: 0.374
+    - _FallOff: 0.214
     - _GlossMapScale: 1
-    - _GlossSteps: 2.53
+    - _GlossSteps: 3.5
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
-    - _NormalStrength: 0.52
+    - _NormalStrength: 0.76
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RimPower: 3.97
+    - _RimPower: 3.52
     - _SmoothnessTextureChannel: 0
-    - _SpecularGloss: 2.33
+    - _SpecularGloss: 4.1
     - _SpecularHighlights: 1
-    - _SpecularPower: 2.85
+    - _SpecularPower: 1
     - _SrcBlend: 1
-    - _Steps: 28.6
+    - _Steps: 6.8
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Albedo: {r: 0.05636392, g: 0.41509432, b: 0, a: 1}
+    - _Albedo: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 0.9949503, g: 1, b: 0.9858491, a: 1}
-    - _SpecularColor: {r: 0.09558561, g: 0.14150941, b: 0.055402268, a: 1}
+    - _RimColor: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
+    - _SpecularColor: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
   m_BuildTextureStacks: []

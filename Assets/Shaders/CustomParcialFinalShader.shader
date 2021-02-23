@@ -4,7 +4,7 @@ Shader "Custom/CustomParcialFinalShader"
     {
         _Albedo("Albedo Color", Color) = (1, 1, 1, 1)
         _MainTex ("Main texture", 2D) = "white" {}
-        _NormalTex("Normal Texture", 2D) = "bump" {}
+        _NormalTex("Normal Map", 2D) = "bump" {}
         _NormalStrength("Normal stregth", Range(-5,5)) = 1.0
         _FallOff("FallOff", Range(0.1, 0.5)) = 0.1
         //phong
@@ -54,7 +54,7 @@ Shader "Custom/CustomParcialFinalShader"
             {
                 half NdotL = max(0, dot(s.Normal, lightDir)); //Lambert
                 half diff= NdotL * _FallOff + _FallOff;
-
+                //phong
                 half3 reflectedLight = reflect(-lightDir, s.Normal);
                 half RdotV = max(0, dot(reflectedLight, viewDir));
                 half3 specularity = pow(RdotV, _SpecularGloss / _GlossSteps) * _SpecularPower * _SpecularColor.rgb;
